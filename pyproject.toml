@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "air-rag-trust"
+version = "0.1.0"
+description = "RAG provenance, write gating, and drift detection for AI agents — EU AI Act compliance infrastructure"
+readme = "README.md"
+license = "Apache-2.0"
+requires-python = ">=3.9"
+authors = [
+    {name = "AIR Blackbox", email = "dev@airblackbox.com"},
+]
+keywords = ["ai", "rag", "provenance", "trust", "compliance", "eu-ai-act", "security", "agents"]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0", "pytest-cov>=4.0"]
+
+[project.scripts]
+air-rag-trust = "air_rag_trust.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/airblackbox/air-rag-trust"
+Repository = "https://github.com/airblackbox/air-rag-trust"
+Issues = "https://github.com/airblackbox/air-rag-trust/issues"
+
+[tool.setuptools.packages.find]
+include = ["air_rag_trust*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
