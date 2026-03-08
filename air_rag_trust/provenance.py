@@ -15,8 +15,6 @@ from typing import Any, Dict, List, Optional, Set
 
 from air_rag_trust.models import (
     DocumentRecord,
-    DriftAlert,
-    AlertSeverity,
     TrustLevel,
     WriteAction,
     WriteEvent,

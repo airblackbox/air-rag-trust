@@ -16,7 +16,6 @@ from air_rag_trust.models import (
     AlertSeverity,
     DriftAlert,
     RetrievalEvent,
-    TrustLevel,
 )
 
 

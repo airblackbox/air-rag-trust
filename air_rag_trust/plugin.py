@@ -16,7 +16,7 @@ from air_rag_trust.models import (
     WriteAction,
 )
 from air_rag_trust.provenance import ProvenanceTracker
-from air_rag_trust.write_gate import WriteGate, WritePolicy, WriteDecision
+from air_rag_trust.write_gate import WriteGate, WritePolicy
 from air_rag_trust.drift import DriftDetector, DriftConfig
 
 

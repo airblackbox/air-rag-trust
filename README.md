@@ -1,5 +1,7 @@
 # air-rag-trust
 
+[![CI](https://github.com/airblackbox/air-rag-trust/actions/workflows/ci.yml/badge.svg)](https://github.com/airblackbox/air-rag-trust/actions/workflows/ci.yml)
+
 **EU AI Act compliance infrastructure for RAG knowledge bases** — Document provenance tracking, write gating, and drift detection that makes your retrieval-augmented generation pipeline compliant with Articles 10, 11, 12, and 15.
 
 Part of the [AIR Blackbox](https://github.com/airblackbox) ecosystem.
